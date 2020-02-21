@@ -11,7 +11,7 @@ def pretty_print_nds(db)
 end
 
 def print_first_directors_movie_titles(db)
-	spielberg = db[0]
+	spielberg_movies = db[0][:movies]
 
 
 end
