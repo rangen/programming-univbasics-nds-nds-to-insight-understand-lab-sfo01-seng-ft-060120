@@ -17,5 +17,5 @@ def print_first_directors_movie_titles
   		movieList << spielberg_movies[index][:title]
   		index += 1
   	end
-  	return movieList.join("\n")
+  	puts movieList.join("\n")
 end
